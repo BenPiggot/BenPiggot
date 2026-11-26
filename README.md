@@ -5,7 +5,7 @@ I build software that connects AI and cloud services to real-world data, from MC
 ## Selected work
 
 **[crate-digger](https://github.com/BenPiggot/crate-digger)**: an MCP server and web app that finds every copy of a specific vinyl pressing for sale
-Combines the Discogs and eBay APIs to return each copy's price, shipping, total cost, record and sleeve grading, and return policy, with exact-pressing matches first. Works with Claude, Cursor and other MCP-compatible AI apps. Python, MCP, FastAPI, with tests and CI.
+Combines the Discogs and eBay APIs to return each copy's price, shipping, total cost, record and sleeve grading, and return policy, with exact-pressing matches first. Works with Claude, Cursor and other MCP-compatible AI apps. TypeScript, MCP, Fastify, Zod, with tests and CI.
 
 **[stock-notifier](https://github.com/BenPiggot/stock-notifier)**: a serverless restock alert bot on AWS
 Checks a retailer's product page every minute with a headless browser and posts to Discord only when the item comes back in stock. The whole stack, including Lambda as a container image, an EventBridge schedule, DynamoDB state and Parameter Store secrets, is defined in AWS CDK.
